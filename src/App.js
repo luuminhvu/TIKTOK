@@ -20,7 +20,7 @@ function App() {
                                 path={route.path}
                                 element={
                                     <Layout>
-                                        <route.component />/
+                                        <route.component />
                                     </Layout>
                                 }
                             />
