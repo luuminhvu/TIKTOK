@@ -6,6 +6,7 @@
     --default-layout-horizontal-spacer: 24px;
     --text-color: #333;
     --white: #fff;
+    --font-family: 'Proxima Nova', sans-serif;
 }
 * {
     box-sizing: border-box;
@@ -16,10 +17,12 @@ html {
     font-size: 62.5%;
 }
 body {
+    font-family: var(--font-family);
     font-size: 1.6rem;
-    font-family: 'Proxima Nova', sans-serif;
     line-height: 1.5;
-    text-rendering: optimizeSpeed;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+    overflow-y: overlay;
 }
 button,
 input,
