@@ -7,6 +7,7 @@
     --text-color: #333;
     --white: #fff;
     --font-family: 'Proxima Nova', sans-serif;
+    --search-height: 46px;
 }
 * {
     box-sizing: border-box;
@@ -73,4 +74,34 @@ body {
     .tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
         top: -8px;
     }
+}
+// Scrollbar CSS
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
