@@ -3,6 +3,7 @@ import Home from '~/pages/Home';
 import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
+import Live from '~/pages/Live';
 import { HeaderOnly } from '~/layout';
 import Search from '~/pages/Search';
 const publicRoutes = [
@@ -27,6 +28,10 @@ const publicRoutes = [
         path: config.routes.search,
         component: Search,
         layout: null,
+    },
+    {
+        path: config.routes.live,
+        component: Live,
     },
 ];
 const privateRoutes = [];
