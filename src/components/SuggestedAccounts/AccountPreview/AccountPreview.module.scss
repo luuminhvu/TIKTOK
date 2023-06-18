@@ -1,0 +1,45 @@
+.wrapper {
+    width: 320px;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body {
+    margin-top: 12px;
+    color: #161823;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.follow-btn {
+    padding: 6px 16px;
+}
+.nickname {
+    font-size: 1.8rem;
+}
+.name {
+    font-size: 1.2rem;
+    opacity: #161823bf;
+}
+.check {
+    font-size: 1.4rem;
+    color: #20d5ec;
+    margin-left: 4px;
+}
+.value ~ .value {
+    margin-left: 20px;
+}
+.analytics {
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.label {
+    margin-left: 4px;
+    color: #161823bf;
+}
